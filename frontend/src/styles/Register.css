@@ -1,0 +1,24 @@
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9fafb;
+  position: relative;
+}
+
+/* Optional: Add a decorative pattern to the background */
+.register-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.05) 1%, transparent 1%),
+    radial-gradient(circle at 75% 75%, rgba(99, 102, 241, 0.05) 1%, transparent 1%);
+  background-size: 3rem 3rem;
+  background-position: 0 0;
+  pointer-events: none;
+  z-index: 0;
+}

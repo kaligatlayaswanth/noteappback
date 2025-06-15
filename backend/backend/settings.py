@@ -53,6 +53,7 @@ SIMPLE_JWT = {
 # Application definition
 
 INSTALLED_APPS = [
+    "whitenoise.runserver_nostatic",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -154,5 +155,7 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-CORS_ALLOW_ALL_ORIGINS =True
 CORS_ALLOWS_CREDENTIALS = True
+CROS_ALLOW_ORIGINS = [
+    "https://noteme-ten.vercel.app"
+]

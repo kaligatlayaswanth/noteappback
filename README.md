@@ -7,7 +7,6 @@ NotesApp is a full-stack note-taking application built with **React** on the fro
 ---
 
 
-![Image](https://github.com/user-attachments/assets/88ae0bf1-b4d9-4e2b-99ac-3b7c31712ff8)
 
 ---
 
